@@ -59,7 +59,7 @@ class _HomeListState extends State<HomeList> {
                     decoration: BoxDecoration(
                       border: Border.all(color: const Color.fromARGB(255, 255, 255, 255)),
                     ),
-                    child: Center(child: Image.asset('../assets/images/image.png', fit: BoxFit.cover)),
+                    child: Center(child: Text("IMG",style: TextStyle(fontWeight: FontWeight.bold))),
                   ),
                   SizedBox(width: 10),
                   Column(
